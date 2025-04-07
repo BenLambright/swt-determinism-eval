@@ -1,0 +1,4 @@
+annotation count: 2.0
+time points: 1.0
+label count: 0.9867969821673526
+bigram count: 0.8949002942137954
