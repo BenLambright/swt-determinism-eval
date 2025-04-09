@@ -18,10 +18,10 @@ To get all other values, I calculated the [Jaccard coefficient](https://en.wikip
 The pythonic versions of these calculations can be found in `calc_variance.py` below.
 
 Metrics:  
-Average variance in annotations: variance the exact number of annotations per swt output (see formula above)
-Jaccard coefficient of time points: variance in the timepoints. This should always stay the same because I never altered the sample rate, but I wanted to confirm with this calculation. 
-Jaccard coefficient of labels: variance in the labels
-Jaccard coefficient of tuple counts: tuple pairing each timepoint to its corresponding label, measures the variance in these tuples, so the how variance in how each timepoint is assigned to a label.
+* Average variance in annotations: variance the exact number of annotations per swt output (see formula above)
+* Jaccard coefficient of time points: variance in the timepoints. This should always stay the same because I never altered the sample rate, but I wanted to confirm with this calculation. 
+* Jaccard coefficient of labels: variance in the labels
+* Jaccard coefficient of tuple counts: tuple pairing each timepoint to its corresponding label, measures the variance in these tuples, so the how variance in how each timepoint is assigned to a label.
 
 ## Results
 
